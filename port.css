@@ -1,0 +1,216 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: cursive;
+	background-color:rgb(17, 16, 16, 1.0) ;
+	color: white;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	padding: 22px;
+	background-color: rgb(17, 16, 16, 1.0);
+	align-items: center;
+	position: fixed;
+	top: 0%;
+	width: 100%;
+}
+ul{
+	display: flex;
+	align-items: center;
+
+}
+ul li{
+	list-style: none;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 19px;
+	margin-inline: 22px;
+}
+ul li a:hover{
+	color: lightblue;
+	border-bottom:2px solid rgb(0, 140, 255, 1.0) ;
+}
+#bar{
+	display: none;
+}
+.logo{
+	font-size: 22px;
+}
+.logo span{
+	color: rgb(0, 153, 255, 1.0);
+}
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 105px;
+
+}
+.maintext h1{
+	font-size: 70px;
+}
+.maintext h1 span{
+	color: blue;
+}
+.maintext h3{
+	font-size: 28px;
+
+}
+.maintext p{
+	font-size: 30px;
+}
+.maintext button{
+	width: 140px;
+	height: 40px;
+	background-color: lightblue;
+	font-size: 19px;
+	border: none;
+	margin-top:24px ;
+	color: white;
+}
+button:hover{
+	border: 2px solid rgb(0, 149, 255, 1.0);
+	background-color: transparent;
+	cursor: pointer;
+}
+.head{
+	text-align: center;
+	padding: 80px;
+}
+.head span{
+	color:blue;
+}
+.about{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:rgb(28, 28, 28, 1.0);
+	padding: 52px;
+}
+.about img{
+	width: 250px;
+	border-radius: 50% ;
+	border: 4px solid rgb(0, 136,255, 1.0);
+	margin-inline: 55px;
+}
+.aboutText p{
+	margin-top: 23px;
+}
+.aboutText h2 span{
+	color: rgb(0, 140, 255, 1.0);
+}
+.aboutText p span{
+color: darkgray;
+}
+.aboutText h2{
+	font-size: 30px;
+}
+.service{
+	display: flex;
+	flex-wrap: wrap ;
+	justify-content: center;
+}
+.card{
+	width: 250px;
+	padding: 22px;
+	background-color: darkgray;
+	margin-inline: 20px ;
+	border-radius: 5px;
+}
+.card h3{
+	font-size: 25px;
+	color: darkblue;
+}
+.card i{
+	font-size: 22px;
+}
+.mywork{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.workcard{
+	width: 300px;
+	height: 310px;
+	background-color: black;
+	border-radius:5px ;
+	margin-inline: 30px;
+}
+.workcard img{
+	width: 100%;
+	height: 200px;
+}
+.workcard p{
+	margin-top: 11px;
+}
+.workcard a{
+	text-decoration: none;
+	position: absolute;
+	margin-top: 20px;
+	padding: 6px 12px;
+	background-color:blue;
+	color: white;
+
+}
+.contact
+{
+	width: 300px;
+	padding: 20px;
+	background-color: darkgray;
+	margin: auto;
+
+}
+.contact input{
+	width: 90%;
+	padding: 5px;
+	font-size: 17px;
+	background-color: transparent;
+	color: white;
+	margin-top: 3px;
+}
+.contact p{
+	margin-top: 20px;
+}
+.contact button{
+	width: 90px;
+	height: 28px;
+	background-color: blue;
+	color: white;
+	font-size: 17px;
+	border: none;
+	margin-top: 22px;
+}
+.footer{
+	display: flex;
+
+	justify-content:space-around;
+	background-color: darkgray;
+	padding: 55px;
+	margin-top: 66px;
+}
+.text p{
+	margin-top: 12px;
+}
+@media screen and (max-width:1000px)
+{
+	.main{
+		display: block;
+		text-align: center;
+		margin-top: 155px;
+	}
+}
+@media screen and (max-width:800px){
+	ul{
+		display: none;
+
+	}
+	#bar{
+		display: block;
+	}
+}
